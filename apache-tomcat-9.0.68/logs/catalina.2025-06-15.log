@@ -1,0 +1,284 @@
+15-Jun-2025 15:34:46.181 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+15-Jun-2025 15:34:46.195 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+15-Jun-2025 15:34:46.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+15-Jun-2025 15:34:46.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+15-Jun-2025 15:34:46.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.5
+15-Jun-2025 15:34:46.196 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+15-Jun-2025 15:34:46.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+15-Jun-2025 15:34:46.198 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.21+9-LTS
+15-Jun-2025 15:34:46.200 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+15-Jun-2025 15:34:46.200 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:34:46.200 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:34:46.547 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jun-2025 15:34:46.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jun-2025 15:34:46.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jun-2025 15:34:46.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jun-2025 15:34:46.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jun-2025 15:34:46.549 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/logging.properties
+15-Jun-2025 15:34:46.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jun-2025 15:34:46.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+15-Jun-2025 15:34:46.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Jun-2025 15:34:46.550 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Jun-2025 15:34:46.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+15-Jun-2025 15:34:46.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:34:46.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:34:46.552 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/temp
+15-Jun-2025 15:34:46.572 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/itaegjin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Jun-2025 15:34:47.403 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8080"]을(를) 초기화합니다.
+15-Jun-2025 15:34:47.599 심각 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector[HTTP/1.1-8080]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:275)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1227)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1240)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:606)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		... 13 more
+15-Jun-2025 15:34:47.603 정보 [main] org.apache.catalina.startup.Catalina.load [1839] 밀리초 내에 서버가 초기화되었습니다.
+15-Jun-2025 15:34:47.765 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+15-Jun-2025 15:34:47.765 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+15-Jun-2025 15:34:47.777 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
+15-Jun-2025 15:34:48.619 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [837] 밀리초에 완료되었습니다.
+15-Jun-2025 15:34:48.621 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+15-Jun-2025 15:34:48.715 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [93] 밀리초에 완료되었습니다.
+15-Jun-2025 15:34:48.715 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
+15-Jun-2025 15:34:49.168 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [452] 밀리초에 완료되었습니다.
+15-Jun-2025 15:34:49.169 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
+15-Jun-2025 15:34:49.217 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+15-Jun-2025 15:34:49.217 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+15-Jun-2025 15:34:49.265 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+15-Jun-2025 15:34:49.294 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1691] 밀리초 내에 시작되었습니다.
+15-Jun-2025 15:35:34.233 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+15-Jun-2025 15:35:34.234 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8080"]을(를) 일시 정지 중
+15-Jun-2025 15:35:34.234 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+15-Jun-2025 15:35:34.298 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8080"]을(를) 중지시킵니다.
+15-Jun-2025 15:35:34.300 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8080"]을(를) 소멸시킵니다.
+15-Jun-2025 15:37:32.521 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+15-Jun-2025 15:37:32.534 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+15-Jun-2025 15:37:32.535 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+15-Jun-2025 15:37:32.535 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+15-Jun-2025 15:37:32.535 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.5
+15-Jun-2025 15:37:32.535 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+15-Jun-2025 15:37:32.535 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+15-Jun-2025 15:37:32.536 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.21+9-LTS
+15-Jun-2025 15:37:32.538 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+15-Jun-2025 15:37:32.540 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:37:32.540 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:37:32.580 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jun-2025 15:37:32.581 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jun-2025 15:37:32.581 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jun-2025 15:37:32.581 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jun-2025 15:37:32.581 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jun-2025 15:37:32.581 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/logging.properties
+15-Jun-2025 15:37:32.581 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jun-2025 15:37:32.582 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+15-Jun-2025 15:37:32.582 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Jun-2025 15:37:32.583 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Jun-2025 15:37:32.583 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+15-Jun-2025 15:37:32.583 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:37:32.583 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 15:37:32.584 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/temp
+15-Jun-2025 15:37:32.601 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/itaegjin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Jun-2025 15:37:33.371 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8088"]을(를) 초기화합니다.
+15-Jun-2025 15:37:33.437 정보 [main] org.apache.catalina.startup.Catalina.load [1312] 밀리초 내에 서버가 초기화되었습니다.
+15-Jun-2025 15:37:33.580 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+15-Jun-2025 15:37:33.580 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+15-Jun-2025 15:37:33.589 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
+15-Jun-2025 15:37:34.226 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [632] 밀리초에 완료되었습니다.
+15-Jun-2025 15:37:34.227 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+15-Jun-2025 15:37:34.318 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [91] 밀리초에 완료되었습니다.
+15-Jun-2025 15:37:34.319 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
+15-Jun-2025 15:37:34.774 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [455] 밀리초에 완료되었습니다.
+15-Jun-2025 15:37:34.774 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
+15-Jun-2025 15:37:34.812 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [38] 밀리초에 완료되었습니다.
+15-Jun-2025 15:37:34.813 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+15-Jun-2025 15:37:34.855 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [42] 밀리초에 완료되었습니다.
+15-Jun-2025 15:37:34.878 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8088"]을(를) 시작합니다.
+15-Jun-2025 15:37:34.933 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1492] 밀리초 내에 시작되었습니다.
+15-Jun-2025 16:01:26.924 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/manager]의 배치를 제거합니다.
+15-Jun-2025 16:01:27.062 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+15-Jun-2025 16:01:27.168 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [106] 밀리초에 완료되었습니다.
+15-Jun-2025 16:01:47.219 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/host-manager]의 배치를 제거합니다.
+15-Jun-2025 16:01:47.257 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+15-Jun-2025 16:01:47.306 정보 [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [50] 밀리초에 완료되었습니다.
+15-Jun-2025 16:02:47.388 정보 [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess 변경된 소스 [file:/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/tomcat-users.xml](으)로부터 메모리 사용자 데이터베이스 [UserDatabase]을(를) 다시 로드합니다.
+15-Jun-2025 16:03:54.594 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+15-Jun-2025 16:03:54.605 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+15-Jun-2025 16:03:54.605 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+15-Jun-2025 16:03:54.606 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+15-Jun-2025 16:03:54.606 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.5
+15-Jun-2025 16:03:54.606 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+15-Jun-2025 16:03:54.607 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+15-Jun-2025 16:03:54.608 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.21+9-LTS
+15-Jun-2025 16:03:54.610 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+15-Jun-2025 16:03:54.611 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:03:54.611 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:03:54.638 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jun-2025 16:03:54.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jun-2025 16:03:54.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jun-2025 16:03:54.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jun-2025 16:03:54.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jun-2025 16:03:54.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/logging.properties
+15-Jun-2025 16:03:54.640 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jun-2025 16:03:54.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+15-Jun-2025 16:03:54.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Jun-2025 16:03:54.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Jun-2025 16:03:54.641 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+15-Jun-2025 16:03:54.642 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:03:54.642 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:03:54.642 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/temp
+15-Jun-2025 16:03:54.659 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/itaegjin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Jun-2025 16:03:55.269 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8088"]을(를) 초기화합니다.
+15-Jun-2025 16:03:55.313 심각 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector[HTTP/1.1-8088]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:275)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1227)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1240)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:606)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		... 13 more
+15-Jun-2025 16:03:55.316 정보 [main] org.apache.catalina.startup.Catalina.load [1027] 밀리초 내에 서버가 초기화되었습니다.
+15-Jun-2025 16:03:55.446 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+15-Jun-2025 16:03:55.446 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+15-Jun-2025 16:03:55.454 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
+15-Jun-2025 16:03:55.948 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [490] 밀리초에 완료되었습니다.
+15-Jun-2025 16:03:55.949 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+15-Jun-2025 16:03:56.011 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [61] 밀리초에 완료되었습니다.
+15-Jun-2025 16:03:56.011 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
+15-Jun-2025 16:03:56.401 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [390] 밀리초에 완료되었습니다.
+15-Jun-2025 16:03:56.401 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
+15-Jun-2025 16:03:56.427 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [25] 밀리초에 완료되었습니다.
+15-Jun-2025 16:03:56.427 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+15-Jun-2025 16:03:56.464 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [36] 밀리초에 완료되었습니다.
+15-Jun-2025 16:03:56.481 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1163] 밀리초 내에 시작되었습니다.
+15-Jun-2025 16:03:56.488 심각 [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:400)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:262)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:580)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+15-Jun-2025 16:03:56.489 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8088"]을(를) 일시 정지 중
+15-Jun-2025 16:03:56.489 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+15-Jun-2025 16:03:56.544 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8088"]을(를) 중지시킵니다.
+15-Jun-2025 16:03:56.545 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8088"]을(를) 소멸시킵니다.
+15-Jun-2025 16:04:01.831 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+15-Jun-2025 16:04:01.833 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8088"]을(를) 일시 정지 중
+15-Jun-2025 16:04:01.840 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+15-Jun-2025 16:04:01.892 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8088"]을(를) 중지시킵니다.
+15-Jun-2025 16:04:01.909 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8088"]을(를) 소멸시킵니다.
+15-Jun-2025 16:04:05.395 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+15-Jun-2025 16:04:05.406 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+15-Jun-2025 16:04:05.406 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+15-Jun-2025 16:04:05.406 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+15-Jun-2025 16:04:05.406 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.5
+15-Jun-2025 16:04:05.407 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+15-Jun-2025 16:04:05.407 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+15-Jun-2025 16:04:05.407 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.21+9-LTS
+15-Jun-2025 16:04:05.407 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+15-Jun-2025 16:04:05.409 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:04:05.410 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:04:05.438 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+15-Jun-2025 16:04:05.440 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+15-Jun-2025 16:04:05.440 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+15-Jun-2025 16:04:05.440 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+15-Jun-2025 16:04:05.441 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+15-Jun-2025 16:04:05.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/logging.properties
+15-Jun-2025 16:04:05.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+15-Jun-2025 16:04:05.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+15-Jun-2025 16:04:05.442 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+15-Jun-2025 16:04:05.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+15-Jun-2025 16:04:05.443 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+15-Jun-2025 16:04:05.444 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:04:05.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+15-Jun-2025 16:04:05.445 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/temp
+15-Jun-2025 16:04:05.463 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/itaegjin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+15-Jun-2025 16:04:06.075 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8088"]을(를) 초기화합니다.
+15-Jun-2025 16:04:06.141 정보 [main] org.apache.catalina.startup.Catalina.load [1032] 밀리초 내에 서버가 초기화되었습니다.
+15-Jun-2025 16:04:06.311 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+15-Jun-2025 16:04:06.311 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+15-Jun-2025 16:04:06.319 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
+15-Jun-2025 16:04:06.821 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [496] 밀리초에 완료되었습니다.
+15-Jun-2025 16:04:06.823 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+15-Jun-2025 16:04:06.898 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [75] 밀리초에 완료되었습니다.
+15-Jun-2025 16:04:06.898 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
+15-Jun-2025 16:04:07.244 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [346] 밀리초에 완료되었습니다.
+15-Jun-2025 16:04:07.244 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
+15-Jun-2025 16:04:07.275 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [31] 밀리초에 완료되었습니다.
+15-Jun-2025 16:04:07.276 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+15-Jun-2025 16:04:07.310 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [35] 밀리초에 완료되었습니다.
+15-Jun-2025 16:04:07.318 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8088"]을(를) 시작합니다.
+15-Jun-2025 16:04:07.381 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [1237] 밀리초 내에 시작되었습니다.
+15-Jun-2025 16:06:10.751 정보 [http-nio-8088-exec-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+15-Jun-2025 16:06:11.868 정보 [http-nio-8088-exec-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+15-Jun-2025 16:06:13.087 정보 [http-nio-8088-exec-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [2,335] 밀리초에 완료되었습니다.
+15-Jun-2025 16:16:37.315 정보 [http-nio-8088-exec-9] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+15-Jun-2025 16:16:37.604 정보 [http-nio-8088-exec-6] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+15-Jun-2025 16:16:38.256 정보 [http-nio-8088-exec-6] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+15-Jun-2025 16:16:39.110 정보 [http-nio-8088-exec-6] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,507] 밀리초에 완료되었습니다.
+15-Jun-2025 16:17:09.975 정보 [http-nio-8088-exec-10] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+15-Jun-2025 16:17:10.257 정보 [http-nio-8088-exec-7] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+15-Jun-2025 16:17:10.919 정보 [http-nio-8088-exec-7] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+15-Jun-2025 16:17:11.959 정보 [http-nio-8088-exec-7] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,701] 밀리초에 완료되었습니다.
+15-Jun-2025 16:17:27.309 정보 [http-nio-8088-exec-3] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+15-Jun-2025 16:17:27.370 정보 [http-nio-8088-exec-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+15-Jun-2025 16:17:27.886 정보 [http-nio-8088-exec-2] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+15-Jun-2025 16:17:28.744 정보 [http-nio-8088-exec-2] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,373] 밀리초에 완료되었습니다.
+15-Jun-2025 16:18:59.206 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+15-Jun-2025 16:19:05.948 정보 [http-nio-8088-exec-18] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+15-Jun-2025 16:19:06.495 정보 [http-nio-8088-exec-18] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+15-Jun-2025 16:19:07.199 정보 [http-nio-8088-exec-18] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,251] 밀리초에 완료되었습니다.
+15-Jun-2025 16:36:35.640 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+15-Jun-2025 16:36:35.642 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8088"]을(를) 일시 정지 중
+15-Jun-2025 16:36:35.651 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+15-Jun-2025 16:36:35.699 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8088"]을(를) 중지시킵니다.
+15-Jun-2025 16:36:35.721 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8088"]을(를) 소멸시킵니다.
