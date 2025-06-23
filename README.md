@@ -8,3 +8,5 @@
       2) (서버2) Dockerfile + ."war" -> Docker Image 빌드
       3) Docker image -> 컨테이너 생성
   
+17. 실습4) Docker Container에 배포하기 ①
+18. 실습4) Docker Container에 배포하기 ②
