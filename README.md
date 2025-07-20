@@ -10,3 +10,4 @@
   
 17. 실습4) Docker Container에 배포하기 ①
 18. 실습4) Docker Container에 배포하기 ②
+23. Ansible 설정과 작동 과정
