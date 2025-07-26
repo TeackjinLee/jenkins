@@ -17,4 +17,10 @@
        - 키 복사) ssh-copy-id root@[접속할 서버IP]
     3. ansible
        - 멱등성 - 여러명령어를해도 같으면 한번만 실행
-       - 
+       1) ansible all -m ping : 실행중인 서버 확인
+       2) ansible all -m shell -a "free -h" : 용량 확인
+       3) ansible all -m copy -a "src=./text.txt dest=/tmp"
+
+26.Ansible playbook 사용하기
+    - ansible-playbook first-playbook.yml 실행
+27. Jenkins + Ansible 연동하기
