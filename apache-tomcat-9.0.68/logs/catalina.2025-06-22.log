@@ -1,0 +1,212 @@
+22-Jun-2025 16:09:25.328 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+22-Jun-2025 16:09:25.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+22-Jun-2025 16:09:25.339 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+22-Jun-2025 16:09:25.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+22-Jun-2025 16:09:25.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.5
+22-Jun-2025 16:09:25.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+22-Jun-2025 16:09:25.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+22-Jun-2025 16:09:25.340 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.21+9-LTS
+22-Jun-2025 16:09:25.342 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+22-Jun-2025 16:09:25.342 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:09:25.342 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:09:25.382 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2025 16:09:25.385 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2025 16:09:25.385 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2025 16:09:25.385 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2025 16:09:25.386 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2025 16:09:25.386 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/logging.properties
+22-Jun-2025 16:09:25.386 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2025 16:09:25.388 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2025 16:09:25.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2025 16:09:25.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Jun-2025 16:09:25.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+22-Jun-2025 16:09:25.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:09:25.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:09:25.389 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/temp
+22-Jun-2025 16:09:25.408 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/itaegjin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Jun-2025 16:09:26.195 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8088"]을(를) 초기화합니다.
+22-Jun-2025 16:09:26.231 심각 [main] org.apache.catalina.util.LifecycleBase.handleSubClassException 구성요소 [Connector[HTTP/1.1-8088]]을(를) 초기화하지 못했습니다.
+	org.apache.catalina.LifecycleException: 프로토콜 핸들러 초기화가 실패했습니다.
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1051)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:556)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1045)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:459)
+		at java.base/sun.nio.ch.Net.bind(Net.java:448)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:275)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:230)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1227)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1240)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:606)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:77)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1048)
+		... 13 more
+22-Jun-2025 16:09:26.235 정보 [main] org.apache.catalina.startup.Catalina.load [1316] 밀리초 내에 서버가 초기화되었습니다.
+22-Jun-2025 16:09:26.396 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+22-Jun-2025 16:09:26.396 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+22-Jun-2025 16:09:26.414 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:09:28.257 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:09:29.823 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [3,407] 밀리초에 완료되었습니다.
+22-Jun-2025 16:09:29.824 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
+22-Jun-2025 16:09:29.872 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [47] 밀리초에 완료되었습니다.
+22-Jun-2025 16:09:29.873 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+22-Jun-2025 16:09:29.946 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [73] 밀리초에 완료되었습니다.
+22-Jun-2025 16:09:29.946 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
+22-Jun-2025 16:09:30.352 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [406] 밀리초에 완료되었습니다.
+22-Jun-2025 16:09:30.354 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
+22-Jun-2025 16:09:30.387 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [34] 밀리초에 완료되었습니다.
+22-Jun-2025 16:09:30.388 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+22-Jun-2025 16:09:30.438 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [50] 밀리초에 완료되었습니다.
+22-Jun-2025 16:09:30.471 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [4234] 밀리초 내에 시작되었습니다.
+22-Jun-2025 16:09:30.479 심각 [main] org.apache.catalina.core.StandardServer.await 주소 [localhost]와(과) 포트 [8005]에, 서버 셧다운 소켓을 생성하지 못했습니다. (base 포트 [8005], offset [0])
+	java.net.BindException: Address already in use (Bind failed)
+		at java.base/java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.base/java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:452)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:400)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:262)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:580)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
+22-Jun-2025 16:09:30.480 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8088"]을(를) 일시 정지 중
+22-Jun-2025 16:09:30.480 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+22-Jun-2025 16:09:30.547 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8088"]을(를) 중지시킵니다.
+22-Jun-2025 16:09:30.548 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8088"]을(를) 소멸시킵니다.
+22-Jun-2025 16:10:04.367 정보 [main] org.apache.catalina.core.StandardServer.await 셧다운 포트를 통해 유효한 셧다운 명령을 받았습니다. 서버 인스턴스를 중지시킵니다.
+22-Jun-2025 16:10:04.394 정보 [main] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8088"]을(를) 일시 정지 중
+22-Jun-2025 16:10:04.417 정보 [main] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+22-Jun-2025 16:10:04.532 정보 [main] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8088"]을(를) 중지시킵니다.
+22-Jun-2025 16:10:04.556 정보 [main] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8088"]을(를) 소멸시킵니다.
+22-Jun-2025 16:10:17.317 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 서버 버전 이름:    Apache Tomcat/9.0.68
+22-Jun-2025 16:10:17.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 빌드 시각:  Oct 3 2022 19:06:10 UTC
+22-Jun-2025 16:10:17.333 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log Server 버전 번호:  9.0.68.0
+22-Jun-2025 16:10:17.334 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 이름:     Mac OS X
+22-Jun-2025 16:10:17.334 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 운영체제 버전:     15.5
+22-Jun-2025 16:10:17.334 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 아키텍처:          x86_64
+22-Jun-2025 16:10:17.334 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 자바 홈:           /Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home
+22-Jun-2025 16:10:17.335 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 버전:          11.0.21+9-LTS
+22-Jun-2025 16:10:17.336 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM 벤더:          Azul Systems, Inc.
+22-Jun-2025 16:10:17.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:10:17.337 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     /Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:10:17.380 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.lang=ALL-UNNAMED
+22-Jun-2025 16:10:17.382 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.io=ALL-UNNAMED
+22-Jun-2025 16:10:17.382 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util=ALL-UNNAMED
+22-Jun-2025 16:10:17.382 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+22-Jun-2025 16:10:17.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+22-Jun-2025 16:10:17.383 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.config.file=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/conf/logging.properties
+22-Jun-2025 16:10:17.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+22-Jun-2025 16:10:17.384 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djdk.tls.ephemeralDHKeySize=2048
+22-Jun-2025 16:10:17.387 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+22-Jun-2025 16:10:17.387 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+22-Jun-2025 16:10:17.387 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dignore.endorsed.dirs=
+22-Jun-2025 16:10:17.387 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.base=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:10:17.387 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Dcatalina.home=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68
+22-Jun-2025 16:10:17.388 정보 [main] org.apache.catalina.startup.VersionLoggerListener.log 명령 행 아규먼트:  -Djava.io.tmpdir=/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/temp
+22-Jun-2025 16:10:17.405 정보 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 프로덕션 환경들에서 최적의 성능을 제공하는, APR 기반 Apache Tomcat Native 라이브러리가, 다음 java.library.path에서 발견되지 않습니다: [/Users/itaegjin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+22-Jun-2025 16:10:18.179 정보 [main] org.apache.coyote.AbstractProtocol.init 프로토콜 핸들러 ["http-nio-8088"]을(를) 초기화합니다.
+22-Jun-2025 16:10:18.253 정보 [main] org.apache.catalina.startup.Catalina.load [1347] 밀리초 내에 서버가 초기화되었습니다.
+22-Jun-2025 16:10:18.419 정보 [main] org.apache.catalina.core.StandardService.startInternal 서비스 [Catalina]을(를) 시작합니다.
+22-Jun-2025 16:10:18.419 정보 [main] org.apache.catalina.core.StandardEngine.startInternal 서버 엔진을 시작합니다: [Apache Tomcat/9.0.68]
+22-Jun-2025 16:10:18.438 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:10:20.294 정보 [main] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:10:21.809 정보 [main] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [3,369] 밀리초에 완료되었습니다.
+22-Jun-2025 16:10:21.810 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]을(를) 배치합니다.
+22-Jun-2025 16:10:21.859 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/docs]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+22-Jun-2025 16:10:21.860 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]을(를) 배치합니다.
+22-Jun-2025 16:10:21.953 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/manager]에 대한 배치가 [93] 밀리초에 완료되었습니다.
+22-Jun-2025 16:10:21.953 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]을(를) 배치합니다.
+22-Jun-2025 16:10:22.375 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/examples]에 대한 배치가 [422] 밀리초에 완료되었습니다.
+22-Jun-2025 16:10:22.376 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]을(를) 배치합니다.
+22-Jun-2025 16:10:22.401 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/ROOT]에 대한 배치가 [25] 밀리초에 완료되었습니다.
+22-Jun-2025 16:10:22.401 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]을(를) 배치합니다.
+22-Jun-2025 16:10:22.449 정보 [main] org.apache.catalina.startup.HostConfig.deployDirectory 웹 애플리케이션 디렉토리 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/host-manager]에 대한 배치가 [48] 밀리초에 완료되었습니다.
+22-Jun-2025 16:10:22.474 정보 [main] org.apache.coyote.AbstractProtocol.start 프로토콜 핸들러 ["http-nio-8088"]을(를) 시작합니다.
+22-Jun-2025 16:10:22.495 정보 [main] org.apache.catalina.startup.Catalina.start 서버가 [4240] 밀리초 내에 시작되었습니다.
+22-Jun-2025 16:11:47.197 정보 [http-nio-8088-exec-8] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]을(를) 배치합니다.
+22-Jun-2025 16:11:47.328 정보 [http-nio-8088-exec-8] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]의 배치가 [131] 밀리초에 완료되었습니다.
+22-Jun-2025 16:11:47.968 정보 [http-nio-8088-exec-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:11:48.060 정보 [http-nio-8088-exec-11] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:11:48.932 정보 [http-nio-8088-exec-11] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:11:50.011 정보 [http-nio-8088-exec-11] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,952] 밀리초에 완료되었습니다.
+22-Jun-2025 16:11:50.651 정보 [http-nio-8088-exec-4] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:11:50.712 정보 [http-nio-8088-exec-12] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:11:51.467 정보 [http-nio-8088-exec-12] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:11:52.481 정보 [http-nio-8088-exec-12] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,770] 밀리초에 완료되었습니다.
+22-Jun-2025 16:17:28.828 정보 [http-nio-8088-exec-15] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/sample]의 배치를 제거합니다.
+22-Jun-2025 16:17:28.864 정보 [http-nio-8088-exec-19] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]을(를) 배치합니다.
+22-Jun-2025 16:17:28.919 정보 [http-nio-8088-exec-19] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]의 배치가 [55] 밀리초에 완료되었습니다.
+22-Jun-2025 16:17:29.544 정보 [http-nio-8088-exec-1] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:17:29.612 정보 [http-nio-8088-exec-16] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:17:30.287 정보 [http-nio-8088-exec-16] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:17:31.454 정보 [http-nio-8088-exec-16] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,842] 밀리초에 완료되었습니다.
+22-Jun-2025 16:17:32.100 정보 [http-nio-8088-exec-17] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:17:32.156 정보 [http-nio-8088-exec-13] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:17:32.914 정보 [http-nio-8088-exec-13] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:17:33.854 정보 [http-nio-8088-exec-13] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,697] 밀리초에 완료되었습니다.
+22-Jun-2025 16:21:29.010 정보 [http-nio-8088-exec-24] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/sample]의 배치를 제거합니다.
+22-Jun-2025 16:21:29.032 정보 [http-nio-8088-exec-27] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]을(를) 배치합니다.
+22-Jun-2025 16:21:29.143 정보 [http-nio-8088-exec-27] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]의 배치가 [111] 밀리초에 완료되었습니다.
+22-Jun-2025 16:21:29.781 정보 [http-nio-8088-exec-31] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:21:29.841 정보 [http-nio-8088-exec-23] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:21:30.496 정보 [http-nio-8088-exec-23] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:21:31.510 정보 [http-nio-8088-exec-23] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,668] 밀리초에 완료되었습니다.
+22-Jun-2025 16:21:32.136 정보 [http-nio-8088-exec-28] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:21:32.199 정보 [http-nio-8088-exec-22] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:21:32.846 정보 [http-nio-8088-exec-22] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:21:33.767 정보 [http-nio-8088-exec-22] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,568] 밀리초에 완료되었습니다.
+22-Jun-2025 16:26:29.086 정보 [http-nio-8088-exec-36] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/sample]의 배치를 제거합니다.
+22-Jun-2025 16:26:29.119 정보 [http-nio-8088-exec-35] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]을(를) 배치합니다.
+22-Jun-2025 16:26:29.176 정보 [http-nio-8088-exec-35] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]의 배치가 [57] 밀리초에 완료되었습니다.
+22-Jun-2025 16:26:29.868 정보 [http-nio-8088-exec-43] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:26:29.957 정보 [http-nio-8088-exec-42] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:26:30.618 정보 [http-nio-8088-exec-42] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:26:31.540 정보 [http-nio-8088-exec-42] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,583] 밀리초에 완료되었습니다.
+22-Jun-2025 16:26:32.155 정보 [http-nio-8088-exec-37] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:26:32.221 정보 [http-nio-8088-exec-43] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:26:32.860 정보 [http-nio-8088-exec-43] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:26:33.768 정보 [http-nio-8088-exec-43] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,547] 밀리초에 완료되었습니다.
+22-Jun-2025 16:33:29.546 정보 [http-nio-8088-exec-49] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/sample]의 배치를 제거합니다.
+22-Jun-2025 16:33:29.572 정보 [http-nio-8088-exec-50] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]을(를) 배치합니다.
+22-Jun-2025 16:33:29.635 정보 [http-nio-8088-exec-50] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]의 배치가 [63] 밀리초에 완료되었습니다.
+22-Jun-2025 16:33:30.250 정보 [http-nio-8088-exec-47] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:33:30.300 정보 [http-nio-8088-exec-37] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:33:30.973 정보 [http-nio-8088-exec-37] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:33:31.876 정보 [http-nio-8088-exec-37] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,576] 밀리초에 완료되었습니다.
+22-Jun-2025 16:33:32.500 정보 [http-nio-8088-exec-51] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 16:33:32.561 정보 [http-nio-8088-exec-50] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 16:33:33.137 정보 [http-nio-8088-exec-50] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 16:33:34.093 정보 [http-nio-8088-exec-50] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,529] 밀리초에 완료되었습니다.
+22-Jun-2025 17:28:47.998 정보 [http-nio-8088-exec-62] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/sample]의 배치를 제거합니다.
+22-Jun-2025 17:28:48.508 정보 [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/sample]의 배치를 제거합니다.
+22-Jun-2025 17:28:48.532 정보 [http-nio-8088-exec-64] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]을(를) 배치합니다.
+22-Jun-2025 17:28:48.596 정보 [http-nio-8088-exec-64] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/sample.war]의 배치가 [64] 밀리초에 완료되었습니다.
+22-Jun-2025 17:28:49.218 정보 [http-nio-8088-exec-63] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 17:28:49.262 정보 [http-nio-8088-exec-60] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 17:28:49.734 정보 [http-nio-8088-exec-60] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 17:28:50.486 정보 [http-nio-8088-exec-60] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,224] 밀리초에 완료되었습니다.
+22-Jun-2025 17:28:51.103 정보 [http-nio-8088-exec-65] org.apache.catalina.startup.HostConfig.undeploy 컨텍스트 [/hello-world]의 배치를 제거합니다.
+22-Jun-2025 17:28:51.134 정보 [http-nio-8088-exec-57] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]을(를) 배치합니다.
+22-Jun-2025 17:28:51.576 정보 [http-nio-8088-exec-57] org.apache.jasper.servlet.TldScanner.scanJars 적어도 하나의 JAR가 TLD들을 찾기 위해 스캔되었으나 아무 것도 찾지 못했습니다. 스캔했으나 TLD가 없는 JAR들의 전체 목록을 보시려면, 로그 레벨을 디버그 레벨로 설정하십시오. 스캔 과정에서 불필요한 JAR들을 건너뛰면, 시스템 시작 시간과 JSP 컴파일 시간을 단축시킬 수 있습니다.
+22-Jun-2025 17:28:52.378 정보 [http-nio-8088-exec-57] org.apache.catalina.startup.HostConfig.deployWAR 웹 애플리케이션 아카이브 [/Users/itaegjin/study/jenkins/apache-tomcat-9.0.68/webapps/hello-world.war]의 배치가 [1,243] 밀리초에 완료되었습니다.
+22-Jun-2025 20:29:28.586 정보 [Thread-1] org.apache.coyote.AbstractProtocol.pause 프로토콜 핸들러 ["http-nio-8088"]을(를) 일시 정지 중
+22-Jun-2025 20:29:28.662 정보 [Thread-1] org.apache.catalina.core.StandardService.stopInternal 서비스 [Catalina]을(를) 중지시킵니다.
+22-Jun-2025 20:29:29.030 정보 [Thread-1] org.apache.coyote.AbstractProtocol.stop 프로토콜 핸들러 ["http-nio-8088"]을(를) 중지시킵니다.
+22-Jun-2025 20:29:29.124 정보 [Thread-1] org.apache.coyote.AbstractProtocol.destroy 프로토콜 핸들러 ["http-nio-8088"]을(를) 소멸시킵니다.

@@ -1,0 +1,53 @@
+16-Jun-2025 23:48:11.676 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:48:11.788 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:48:13.625 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:48:13.625 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:48:13.627 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@50e0b472')
+16-Jun-2025 23:48:29.947 정보 [http-nio-8088-exec-4] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+16-Jun-2025 23:48:31.682 정보 [http-nio-8088-exec-5] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:48:31.729 정보 [http-nio-8088-exec-5] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:51:42.209 정보 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+16-Jun-2025 23:51:42.248 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jun-2025 23:51:42.248 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jun-2025 23:51:48.498 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:51:48.604 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:51:50.196 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:51:50.197 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:51:50.198 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@642614b7')
+16-Jun-2025 23:51:51.028 정보 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+16-Jun-2025 23:51:51.048 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jun-2025 23:51:51.048 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jun-2025 23:52:06.325 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:52:06.426 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:52:08.030 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:52:08.030 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:52:08.033 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@58d79479')
+16-Jun-2025 23:52:16.759 정보 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+16-Jun-2025 23:52:16.780 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jun-2025 23:52:16.781 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jun-2025 23:52:50.234 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:52:50.234 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:52:50.237 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@721eb7df')
+16-Jun-2025 23:53:00.929 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jun-2025 23:53:00.929 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jun-2025 23:53:12.109 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:53:12.110 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:53:12.113 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5298dead')
+16-Jun-2025 23:53:34.861 정보 [http-nio-8088-exec-2] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:53:34.939 정보 [http-nio-8088-exec-2] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:54:15.860 정보 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+16-Jun-2025 23:54:15.900 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jun-2025 23:54:15.900 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jun-2025 23:54:22.621 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:54:22.726 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:54:24.320 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:54:24.320 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:54:24.322 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5274830e')
+16-Jun-2025 23:58:34.219 정보 [main] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'dispatcher'
+16-Jun-2025 23:58:34.263 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+16-Jun-2025 23:58:34.263 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+16-Jun-2025 23:58:41.470 정보 [main] org.apache.catalina.core.ApplicationContext.log 1 Spring WebApplicationInitializers detected on classpath
+16-Jun-2025 23:58:41.586 정보 [main] org.apache.catalina.core.ApplicationContext.log Initializing Spring DispatcherServlet 'dispatcher'
+16-Jun-2025 23:58:43.341 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+16-Jun-2025 23:58:43.341 정보 [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+16-Jun-2025 23:58:43.343 정보 [main] org.apache.catalina.core.ApplicationContext.log ContextListener: attributeAdded('StockTicker', 'async.Stockticker@5513a46b')
