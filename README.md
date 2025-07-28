@@ -25,3 +25,4 @@
     - ansible-playbook first-playbook.yml 실행
 27. Jenkins + Ansible 연동하기
 31. 실습6) Ansible Playbook으로 Docker 컨테이너 생성하기
+35. Kubernetes 기본 명령어
