@@ -26,9 +26,26 @@
 27. Jenkins + Ansible 연동하기
 31. 실습6) Ansible Playbook으로 Docker 컨테이너 생성하기
 35. Kubernetes 기본 명령어
-    - kubectl run sample-nginx --image=nginx --port=80
-    - kubectl create deployment sample-ninx --image=nginx
-    - kubectl scale deployment sample-nginx --replicas=2
-    - kubectl get pods
-    - kubectl get deployments
-    - kubectl apply -f sample1.yml
+    K8s 기본 명령어
+    노드 확인  
+    kubectl get nodes
+    파드 확인
+    kubectl get pos
+    디플로이먼트 확인
+    kubectl get deployments
+    서비스 확인 
+    kubectl get services
+    Nginx 서버 실행 
+    kubectl run sample-nginx --image=nginx --port=80
+    컨테이너 정보 확인 
+    kubectl describe pod/sample-nginx
+    파드 삭제
+    kubectl delete pod/sample-nginx-XXXXX-XXXXX
+    Scale 변경 (2개로 변경)
+    kubectl scale deployment sample-nginx --replicas=2
+    Script 실행
+    kubectl apply -f sample1.yml
+    소스 코드
+    vi sample1.yml
+    https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/sample1.yml
+    
