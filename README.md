@@ -60,3 +60,4 @@
     kubectl delete pod/nginx-deployment-XXXX-XXXX
     디플로이먼트 삭제
     kubectl delete deployment nginx-deployment
+37. Kubernetes + Ansible 연동
