@@ -68,3 +68,12 @@
     Ansible에서 K8s 접속 테스트
         ansible -i ./k8s/hosts kubenetes -m ping
         ansible -i ./k8s/hosts kubenetes -m ping -u [계정명]
+
+39. Ansible playbook으로 Kubernetes Script 실행하기
+    윈도우에서 실행 시 오류가 발생하시면 아래 게시글을 참고해 보시기 바랍니다.
+    Jenkins를 이용한 CI/CD Pipeline 구축 강의 | 새소식 - 인프런
+    소스 코드
+    vi k8s-cicd-deployment-playbook.yml
+    https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-deployment-playbook.yml
+    vi k8s-cicd-service-playbook.yml
+    https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-service-playbook.yml
