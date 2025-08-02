@@ -61,3 +61,10 @@
     디플로이먼트 삭제
     kubectl delete deployment nginx-deployment
 37. Kubernetes + Ansible 연동
+38. Ansible에서 Kubernetes 제어하기
+    Docker 컨테이너 검색
+        MaxOS) docker ps -a | grep ansible
+        Windows) docker ps -a | findstr "ansible"
+    Ansible에서 K8s 접속 테스트
+        ansible -i ./k8s/hosts kubenetes -m ping
+        ansible -i ./k8s/hosts kubenetes -m ping -u [계정명]
