@@ -48,4 +48,15 @@
     소스 코드
     vi sample1.yml
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/sample1.yml
-    
+36. Kubernetes Script 파일
+    K8s 기본 명령어
+    파드 확인
+    kubectl get pos -o wide
+    파드에 터널링으로 접속
+    kubectl exec -it nginx-deployment-XXXX-XXXX -- /bin/bash
+    파드 노출(공개)
+    kubectl expose deployment nginx-deployment --port=80 --type=NodePort
+    파드 삭제
+    kubectl delete pod/nginx-deployment-XXXX-XXXX
+    디플로이먼트 삭제
+    kubectl delete deployment nginx-deployment
