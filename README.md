@@ -79,3 +79,15 @@
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-service-playbook.yml
 
 40. 실습7) Jenkins + Ansible + Kubernetes 연동하기 ①
+
+41. 실습7) Jenkins + Ansible + Kubernetes 연동하기 ②
+    PC의 IP address 확인 
+        Windows) ipconfig
+        MacOS) ifconfig
+    
+    Kubectl 명령어 위치
+        Windows) C:\Program Files\Docker\Docker\resources\bin\kubectl.exe
+        MacOS) /usr/local/bin/kubectl
+    Ansible playbook 실행 명령어
+        ansible-playbook -i ./k8s/hosts k8s-cicd-deployment-playbook.yml -u [username]
+        ansible-playbook -i ./k8s/hosts k8s-cicd-service-playbook.yml -u [username]
