@@ -77,7 +77,7 @@
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-deployment-playbook.yml
     vi k8s-cicd-service-playbook.yml
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-service-playbook.yml
-
+    ansible-playbook -i k8s/hosts k8s-cicd-deployment-playbook.yml -u itaegjin
 40. 실습7) Jenkins + Ansible + Kubernetes 연동하기 ①
 
 41. 실습7) Jenkins + Ansible + Kubernetes 연동하기 ②
