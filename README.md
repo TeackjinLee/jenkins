@@ -24,3 +24,9 @@
 26.Ansible playbook 사용하기
     - ansible-playbook first-playbook.yml 실행
 27. Jenkins + Ansible 연동하기
+44. 실습8) Jenkins를 이용한 CI/CD 자동화 파이프라인 구축하기 ②
+    소스 코드
+    vi k8s-cicd-deployment-playbook.yml
+    https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-deployment-playbook.yml
+    vi k8s-cicd-service-playbook.yml
+    https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-service-playbook.yml
