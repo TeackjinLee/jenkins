@@ -30,3 +30,4 @@
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-deployment-playbook.yml
     vi k8s-cicd-service-playbook.yml
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-service-playbook.yml
+47. Delivery Pipeline 사용
