@@ -78,3 +78,4 @@ pipeline {
       }
     }
 }
+50. 실습10) Jenkins Pipeline 프로젝트 - Pipeline Syntax 사용
