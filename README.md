@@ -80,3 +80,4 @@ pipeline {
 }
 50. 실습10) Jenkins Pipeline 프로젝트 - Pipeline Syntax 사용
 51. 실습11) Jenkins Pipeline 프로젝트 - Maven build pipeline
+52. 실습12) Jenkins Pipeline 프로젝트 - Tomcat 서버에 배포
