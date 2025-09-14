@@ -31,3 +31,50 @@
     vi k8s-cicd-service-playbook.yml
     https://github.com/joneconsulting/jenkins_cicd_script/blob/master/k8s_script/k8s-cicd-service-playbook.yml
 47. Delivery Pipeline 사용
+48. Pipeline 생성하기
+pipeline {
+    agent any
+    stages {
+        stage('Compile') {
+            steps {
+                echo "Compiled successfully!";
+            }
+        }
+
+        stage('JUnit') {
+            steps {
+                echo "JUnit passed successfully!";
+            }
+        }
+
+        stage('Code Analysis') {
+            steps {
+                echo "Code Analysis completed successfully!";
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                echo "Deployed successfully!";
+            }
+        }
+    }
+    
+    post {
+      always {
+        echo "This will always run"
+      }
+      success {
+        echo "This will run when the run finished successfully"
+      }
+      failure {
+        echo "This will run if failed"
+      }
+      unstable {
+        echo "This will run when the run was marked as unstable"
+      }
+      changed {
+        echo "This will run when the state of the pipeline has changed"
+      }
+    }
+}
