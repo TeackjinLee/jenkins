@@ -91,8 +91,15 @@ pipeline {
     - Windows, MacOS intel chip) docker run --rm -p 9000:9000 --name sonarqube sonarqube
     - MacOS silicon chip, m1) docker run --rm -p 9000:9000 --name sonarqube  edowon0623/sonarqube:arm
         - 오류로 docker run -d --name sonarqube -p 9000:9000 mwizner/sonarqube:8.7.1-community로 실행
-
-
+55. 실습14) SonarQube + Maven 프로젝트 사용하기
+    https://docs.sonarqube.org/latest/analysis/scan/sonarqube-for-maven
+    https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin
+     
+    
+    Maven에서 SonarQube 빌드
+    mvn sonar:sonar -Dsonar.host.url=http://IP_address:9000 -Dsonar.login=[the-sonar-token]
+    Windows Powershell 등에서 명령어 오류가 발생하면 다음과 같이 인용부호(작은따옴표)를 붙이고 실행
+    mvn sonar:sonar '-Dsonar.host.url=http://IP_address:9000''-Dsonar.login=[the-sonar-token]'
 
 
 
