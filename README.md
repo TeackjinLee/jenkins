@@ -81,3 +81,28 @@ pipeline {
 50. 실습10) Jenkins Pipeline 프로젝트 - Pipeline Syntax 사용
 51. 실습11) Jenkins Pipeline 프로젝트 - Maven build pipeline
 52. 실습12) Jenkins Pipeline 프로젝트 - Tomcat 서버에 배포
+
+54. SonarQube 사용하기
+    - 지속적인 통합과 분석을 하기 위한 도구
+    - 취약성이 있는 코드 및 불필요한 코드를 찾음
+    - 요약하면 코드의 품질을 올려줌
+    - Windows $ docker run --rm -p 9000:9000 --name sonarqube sonarqube
+    - Apple m1 $ docker run -rm -p 9000:9000 --name sonarqube edowon0623/sonarqube:arm
+    - Windows, MacOS intel chip) docker run --rm -p 9000:9000 --name sonarqube sonarqube
+    - MacOS silicon chip, m1) docker run --rm -p 9000:9000 --name sonarqube  edowon0623/sonarqube:arm
+        - 오류로 docker run -d --name sonarqube -p 9000:9000 mwizner/sonarqube:8.7.1-community로 실행
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
