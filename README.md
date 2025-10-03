@@ -111,8 +111,21 @@ pipeline {
     - System Sonarqube down -> Security -> Credentials에서 Sonarqube token입력
     - docker network inspect bridge
 
+58. 실습16) SonarQube 사용을 위한 Pipeline 사용하기
+SonarQube 연동 pipline 코드
+stage('SonarQube analysis') {
 
+    steps {
 
+        withSonarQubeEnv('SonarQube-server') {
+
+            sh 'mvn sonar:sonar'
+
+        }
+
+  }
+
+}
 
 
 
