@@ -101,14 +101,15 @@ pipeline {
     Windows Powershell 등에서 명령어 오류가 발생하면 다음과 같이 인용부호(작은따옴표)를 붙이고 실행
     mvn sonar:sonar '-Dsonar.host.url=http://IP_address:9000''-Dsonar.login=[the-sonar-token]'
     
-57. 실습15) Bad code 조사하기
+56. 실습15) Bad code 조사하기
     mvn clean compile package -DskipTests=true 에서 문제가 없어도
     mvn sonar:sonar '-Dsonar.host.url=http://IP_address:9000''-Dsonar.login=[the-sonar-token]'에서는 System.out.println();같은거는 리소스를 잡아먹어 문제 발생. 코드의 품질 상승
 
 
 
-
-
+57. Jenkins + SonarQube 연동
+    - System Sonarqube down -> Security -> Credentials에서 Sonarqube token입력
+    - docker network inspect bridge
 
 
 
