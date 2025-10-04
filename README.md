@@ -138,5 +138,8 @@ yum list java*jdk-devel
 yum install -y java-11-openjdk-devel.aarch64
 
 
+61. 실습18) Jenkins Slave Node에서 빌드하기
+
+
 
 
