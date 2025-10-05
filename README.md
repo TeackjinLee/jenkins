@@ -140,6 +140,8 @@ yum install -y java-11-openjdk-devel.aarch64
 
 61. 실습18) Jenkins Slave Node에서 빌드하기
 
-
+새로운 Jenkins 서버2 실행 
+Windows, MacOS intel chip) docker run --privileged --name jenkins-node2 -itd -p 40022:22 -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup --cgroupns=host edowon0623/docker:latest /usr/sbin/init
+MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 40022:22 -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup --cgroupns=host  edowon0623/docker-server:m1 /usr/sbin/init
 
 
