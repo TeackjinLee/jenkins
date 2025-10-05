@@ -145,3 +145,13 @@ Windows, MacOS intel chip) docker run --privileged --name jenkins-node2 -itd -p 
 MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 40022:22 -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup --cgroupns=host  edowon0623/docker-server:m1 /usr/sbin/init
 
 79. AWS EC2 인스턴스 생성
+80. AWS EC2 인스턴스 접속
+    aws coreetto 다운로드
+    sudo curl -L https://corretto.aws/downloads/latest/amazon-corretto-11-x64-linux-jdk.rpm -o aws_corretto_jdk11.rpm
+    jdk11 설치
+    sudo yum localinstall aws_corretto_jdk11.rpm.rpm
+    java 버전 확인
+    java -version
+    javac -version
+    다운받은 패키지 삭제
+    rm -rf aws_corretto_jdk11.rpm
