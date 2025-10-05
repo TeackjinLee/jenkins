@@ -144,4 +144,4 @@ yum install -y java-11-openjdk-devel.aarch64
 Windows, MacOS intel chip) docker run --privileged --name jenkins-node2 -itd -p 40022:22 -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup --cgroupns=host edowon0623/docker:latest /usr/sbin/init
 MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 40022:22 -e container=docker -v /sys/fs/cgroup:/sys/fs/cgroup --cgroupns=host  edowon0623/docker-server:m1 /usr/sbin/init
 
-
+79. AWS EC2 인스턴스 생성
