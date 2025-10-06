@@ -156,3 +156,61 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
     다운받은 패키지 삭제
     rm -rf aws_corretto_jdk11.rpm
 64. 이미지를 이용하여 AWS EC2 생성하기
+
+65. 실습19) AWS EC2에 Jenkins 서버 설치하기
+    ## Maven 버전과 Jenkins 버전은 변경 될 수 있습니다.
+    
+    https://mirror.navercorp.com/apache/maven/maven-3/
+     
+    
+    1. AWS EC2 - Amazon Linux release 2023.4.20240513 (Amazon Linux)
+    
+    JDK 설치 
+    sudo dnf update
+    sudo dnf instlal java-17-amazon-corretto-devel
+    java -version
+    Maven 설치 
+    cd /opt
+    ls -ltr
+    sudo wget https://mirror.navercorp.com/apache/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+    sudo tar -xvf apache-maven-3.9.6-bin.tar.gz
+    (기존에 maven 파일 존재할 경우) sudo rm -rf maven 으로 
+    sudo mv apache-maven-3.9.6-bin.tar.gz maven
+    cd maven (확인)
+    2. AWS EC2 - Amazon Linux release 2 
+    
+    https://maven.apache.org/download.cgi
+    Maven 설치 (EC2에서 실행, Maven 버전은 변경될 수 있으니, 위 사이트에서 버전 확인 필요)
+    sudo amazon-linux-extras install epel -y
+    cd /opt
+    ls -ltr
+    sudo wget https://mirror.navercorp.com/apache/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+    sudo tar -xvf apache-maven-3.9.6-bin.tar.gz
+    sudo mv apache-maven-3.9.6-bin.tar.gz maven
+    cd maven (확인)
+     
+    
+    공통) .bash_profile 수정
+    
+    vi ~/.bash_profile
+    source ~/.bash_profile
+    MAVEN_HOME=/opt/maven
+    
+    MAVEN=/opt/maven/bin
+    
+    PATH=
+    PATH:
+    MAVEN:$MAVEN_HOME
+    3. Jenkins 설치  https://pkg.jenkins.io/redhat-stable/
+    
+    Jenkins 설치 (EC2에서 실행)
+    sudo amazon-linux-extra install epel -y
+    sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+    sudo yum install jenkins
+    sudo yum upgrade
+    sudo systemctl enable jenkins
+    sudo systemctl start jenkins
+    sudo systemctl status jenkins
+    Jenkins 초기 암호 확인
+    cat /var/lib/jenkins/secrets/initialAdminPassword
