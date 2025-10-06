@@ -237,4 +237,5 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
         chmod +x /opt/apache-tomcat-9.0.68.tar.gz
         ln –s /opt/apache-tomcat-9.0.68/bin/startup.sh /usr/local/bin/tomcat_startup
         ln –s /opt/apache-tomcat-9.0.68/bin/shutdown.sh /usr/local/bin/tomcat_shutdown
+
     
