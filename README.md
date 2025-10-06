@@ -214,3 +214,14 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
     sudo systemctl status jenkins
     Jenkins 초기 암호 확인
     cat /var/lib/jenkins/secrets/initialAdminPassword
+
+66. 실습20) AWS EC2에 Docker 서버 설치하기
+    AWS의 EC2에 Docker Server 설치
+    sudo amazon-linux-extras install epel -y
+    sudo yum install –y docker
+    Docker Test
+    docker –version
+    Start Docker 
+    sudo usermod –aG docker ec2-user (인스턴스 재 접속)
+    sudo service docker start
+    docker run hello-world
