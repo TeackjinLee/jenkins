@@ -225,3 +225,16 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
     sudo usermod –aG docker ec2-user (인스턴스 재 접속)
     sudo service docker start
     docker run hello-world
+    
+68. 실습21) AWS EC2에 Tomcat 서버 설치하기
+    https://tomcat.apache.org/download-90.cgi  (다운로드 가능한 최신 버전 확인 후 진행)
+        apache-tomcat-9.0.68.tar.gz
+    AWS의 EC2에 Tomcat Server 설치
+        sudo amazon-linux-extras install epel -y
+        cd /opt
+        wget https://mirror.navercorp.com/apache/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
+        tar –xvzf apache-tomcat-9.0.68.tar.gz
+        chmod +x /opt/apache-tomcat-9.0.68.tar.gz
+        ln –s /opt/apache-tomcat-9.0.68/bin/startup.sh /usr/local/bin/tomcat_startup
+        ln –s /opt/apache-tomcat-9.0.68/bin/shutdown.sh /usr/local/bin/tomcat_shutdown
+    
