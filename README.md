@@ -155,3 +155,4 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
     javac -version
     다운받은 패키지 삭제
     rm -rf aws_corretto_jdk11.rpm
+64. 이미지를 이용하여 AWS EC2 생성하기
