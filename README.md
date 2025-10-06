@@ -238,4 +238,17 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
         ln –s /opt/apache-tomcat-9.0.68/bin/startup.sh /usr/local/bin/tomcat_startup
         ln –s /opt/apache-tomcat-9.0.68/bin/shutdown.sh /usr/local/bin/tomcat_shutdown
 
-    
+69. 실습23) AWS EC2에 SonarQube 설치하기
+    EC2 인스턴스 타입 변경 
+        t2.micro -> t2.small
+    SonarQube 설치
+        sudo amazon-linux-extras install epel -y
+        sudo mkdir /opt/sonarqube
+        cd /opt/sonarqube
+        sudo wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-7.6.zip
+        sudo unzip sonarqube-7.6.zip
+        sudo chown -R ec2-user:ec2-user /opt/sonarqube/
+    SonarQube 실행
+        ./bin/[사용하는 OS]/sonar.sh start
+    SonarQube 테스트
+        http://[public ip address]:9000/ 
