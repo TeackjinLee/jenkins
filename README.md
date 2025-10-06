@@ -251,4 +251,6 @@ MacOS silicon chip, m1) docker run --privileged --name jenkins-node2 -itd -p 400
     SonarQube 실행
         ./bin/[사용하는 OS]/sonar.sh start
     SonarQube 테스트
-        http://[public ip address]:9000/ 
+        http://[public ip address]:9000/
+    
+71. 실습24) Jenkins를 이용하여 Tomcat 서버에 배포하기
